@@ -1,0 +1,9 @@
+#writeup 
+
+##i'm...i just went with an easy way out of it, it shouldnt be working but it passed. 
+
+##combined the two lists and sorted them
+
+##use that formula for the position of the median (size/2)
+
+##get the element at that position
