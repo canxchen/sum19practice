@@ -13,7 +13,7 @@ Find median of 2 sorted arrays in O(log(m + n)) time. Issue lies in the runtime.
 
 ## Steps to Solution:
 
-Using intuition from Quick Insights™ #2, realize that you can construct the first chunk of the combined array made of both arrays (which i am now calling the monster array bc i dont wanna type that everytime) by taking some combination of elements from each array. if the list is even, the median would be the largest value of the element one position past the middle. the question is how much you do take from each?? and how do you decide that all within the O(log(m + n)) constraint??
+Building off of Quick Insights™ #2, realize that you can actually construct the first chunk of the combined array made of both arrays (which i am now calling the Monster Array™ bc i dont wanna type that everytime) by taking some combination of elements from each array. (if the list is even, the median would be the largest value of the element one position past the middle.) you could take 0, 1, 2, or all elements from one list, and all, all - 1, all - 2, ...0, elements from the other. the question is how much you do take from each?? and how do you decide that all within the O(log(m + n)) constraint??
 
 
 ### Pinpointing What to Recurse On
@@ -23,12 +23,18 @@ wwELOP to start off, we know the size of the first half of Monster Array™ and 
 In other cases, (ie 1. both lists lengths are >= first half of Monster Array™ 2. one list is smaller [both lists being shorter than the first half is impossible]), the min/max number of elements that both lists can contribute is fixed.
 
 IE:
+
 A = [4, 20, 32, 50, 55, 61]  A.length = 6
+
 B = [1, 15, 22, 30, 70]  B.length = 5
+
 A U B = [1, 4, 15, 20, 22, 30, 32, 50, 55, 61, 70]  (A U B).length = 11
+
 median is 30, the 6th element in A U B. 
 
+
 B can contribute min = 0, max = 5 values. A can contributed min = 1, max = 6 values. 
+
 
 Heres where the binary search kicks in!! So you cant do binary search on the ocmbined arrya, bc then youd have to combine it and that would already surpass the O(log(m + n))limit. SO!! ya do binary search on the min/max # of values that can be chosen. this search is done only --one-- of the the range of values, not both, because you can subtract from the length of half of Monster Array to find out how much the other contributes. 
 
