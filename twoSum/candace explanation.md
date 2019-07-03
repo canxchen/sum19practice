@@ -18,12 +18,15 @@ This is my final answer:
 
 Didn't come up with the answer right away because I'm really rusty: thought of putting tuples in sets, then hashmaps where indices->values, and finally the above.
 
+
+## Runtime and Space
 Space: O(n), Time: O(n)
 
 While the time is O(n), a maximum of two passes are made through the original array's elements: there was an implementation that, instead of adding elmeents to the hashmap and then checking if target-curr is contained. just does the putting in the hashmap and checks in one run. 
 
 If target-currelement is not in the hashmap, curr element is put in the hashmap. if it is, the index of curr_element and the value to the key of target-currelement is returned in an array :OO
 
+### Caveat: hashmap implementation
 As for the lookup runtime, some interviewers may mention that different hashmap implementations can provide different runtimes, or just slow down the total runtime. 
 
 [different hashmap implementations](https://en.wikipedia.org/wiki/Hash_table#Collision_resolution): 
