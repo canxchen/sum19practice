@@ -47,9 +47,7 @@ class Solution:
             else:
                 left = currContributions
                 currContributions = (right + currContributions) / 2
-        return -1
-
-                
+        return -1     
         # ATTEMPT 1 TOTALLY OFF get totallength = nums1 + nums2
         # median location = totallength / 2
         # if medianlocation - 1 >= nums1.length, median is in nums2: 
