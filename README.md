@@ -2,6 +2,7 @@
 
 ## Currently Doing
 [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/ "Median of Two Sorted Arrays")
+[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/ "Longest Palindromic Substring")
 <br/>
 
 ## To Do (totally tentative)
