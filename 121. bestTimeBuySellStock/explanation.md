@@ -42,3 +42,5 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 4. keep goin
 
 1. also u could just nest 2 forloops and generate all posisbilities and check
+
+lesson learned: id what you need from the problem (min, max values that are contiguous), and determine how 2 do dat (dont look back)
