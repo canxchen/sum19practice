@@ -15,3 +15,9 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 ## Done
 [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/ "Median of Two Sorted Arrays")
 <br/>
+
+
+#### Candace's doing
+[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+#### Candace's done
