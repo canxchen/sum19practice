@@ -2,7 +2,7 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
         if (longestPalindrome("babad").equals("bab") || longestPalindrome("babad").equals("aba")) {
-            System.out.println("testing longest palindrome on 'babad' worked!!");
+            System.out.println("longest palindrome on 'babad' worked!!");
         } else {
             System.out.println(longestPalindrome("babad"));
             System.out.println("testing longest palindrome on 'babad' failed");
@@ -13,6 +13,30 @@ public class Main {
             System.out.println(longestPalindrome("cbbd"));
             System.out.println("testing longest palindrome on 'cbbd' failed");
         }
+        if (longestPalindrome("bananas").equals("anana")) {
+            System.out.println("longest palindrome on anana worked!!");
+        } else {
+            System.out.println(longestPalindrome("bananas"));
+            System.out.println("testing longest palindrome on 'anana' failed");
+        }
+        if (longestPalindrome("nn").equals("nn")) {
+            System.out.println("longest palindrome on nn worked!!");
+        } else {
+            System.out.println(longestPalindrome("nn"));
+            System.out.println("testing longest palindrome on 'nn' failed");
+        }
+        if (longestPalindrome("abcdnn").equals("nn")) {
+            System.out.println("longest palindrome on abcdnn worked!!");
+        } else {
+            System.out.println(longestPalindrome("abcdnn"));
+            System.out.println("testing longest palindrome on 'abcdnn' failed");
+        }
+        if (longestPalindrome("abcdnnabcd").equals("nn")) {
+            System.out.println("longest palindrome on abcdnnabcd worked!!");
+        } else {
+            System.out.println(longestPalindrome("abcdnnabcd"));
+            System.out.println("testing longest palindrome on 'abcdnnabcd' failed");
+        }
     }
 
     public static String longestPalindrome(String s) {
@@ -21,7 +45,7 @@ public class Main {
         if (s.length() == 1)
             return s;
         String answer = ""; int currl, currr;
-        for (int i = 1; i < s.length() - 1; i++) {
+        for (int i = 1; i < s.length(); i++) {
             currl = i - 1; currr = i + 1;
             if ((currl >= 0 && s.charAt(i) == s.charAt(currl))
                     && (currr >= s.length() || s.charAt(i) != s.charAt(currr)) ) {
