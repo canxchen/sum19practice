@@ -19,6 +19,7 @@ Could you solve it with constant space complexity? (The output array does not co
 
 ## Solution:
 1. covered it in insight #2! the runtime is technically O(N), and the space is also O(N). To addr the follow up question?
-    i. thought of storing the forwards and calculating answer[i] during the backwards loop but space stays the same
-    ii. thought of calculating both on the fly but that brings it back to n^2
-    iii. on looking for the answer and getting a glimpse of one, remembered that the result array is not a part of space considerations, can use that to store the forwards and then on the back wards array, adjust the values (might need extra variable to store one off values)
+    1. thought of storing the forwards and calculating answer[i] during the backwards loop but space stays the same
+    2. thought of calculating both on the fly but that brings it back to n^2
+    3. on looking for the answer and getting a glimpse of one, remembered that the result array is not a part of space considerations, can use that to store the forwards and then on the back wards array, adjust the values (might need extra variable to store one off values)
+    4. so final solution: going forward, store the accumulated multiplicated values in the resulting array, and going backwards, hold the multiplied values starting from the end in a variable and multiply it back in.

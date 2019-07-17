@@ -6,6 +6,8 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 ## Currently Doing
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/ "Longest Palindromic Substring")
 <br/>
+[6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/ "ZigZag Conversion")
+<br/>
 
 ## To Do (totally tentative)
 [1. Two Sum](https://leetcode.com/problems/two-sum/ "Two Sum")<br/>
@@ -18,8 +20,9 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 
 #### Candace's doing
-[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)<br/>
+[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)<br/>
 
 #### Candace's done
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br/>
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)<br/>
+[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)<br/>
