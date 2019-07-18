@@ -21,6 +21,7 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 #### Candace's doing
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
+[15. 3Sum](https://leetcode.com/problems/3sum/)<br/>
 
 #### Candace's done
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br/>
