@@ -55,3 +55,8 @@ ended doing: arraylist of strings, each index for each row. for loop going throu
 Time: O(n), but with multiple passthroughs
 
 Space: O(n), must store the string another time (but in a diff order) with the arraylist. 
+
+
+## Learned:
+1. check for cycles before running to 2d arrays! i saw that hte example had the strings in what looked like 2d arrays, but rlly a cyclic cycle thing kept track of in an int was sufficient
+2. string concatentaiton in java: just use the plus sign
