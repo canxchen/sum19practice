@@ -29,3 +29,7 @@ If you have figured out the O(n) solution, try coding another solution using the
     2. check if max_so_far > total_max. if yes, reset max_so_far.
 
 still having trouble understanding how exactly it works? was hungup on how you evaluate sub arrays of the currently evaluated array. 
+
+so in the for loop, max_so_far is always > 0 if the array has positive values. meaning if you go under 0 at any time, you can discard that local_max and start over. so what if you want to use any of the values from before? like, what if you had: 4, -1, -1, -1, -1, -1??? youll keep the 4 bc max_so_far > total_max (initial), and the max_so_far is discarded as it slips below 0. 
+
+something about not ever having to reuse negative integers here bc u have positive numbers in the array
