@@ -20,8 +20,8 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 
 #### Candace's doing
+[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
-[15. 3Sum](https://leetcode.com/problems/3sum/)<br/>
 
 #### Candace's done
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br/>
@@ -30,3 +30,4 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)<br/>
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)<br/>
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<br/>
+[15. 3Sum](https://leetcode.com/problems/3sum/)<br/>
