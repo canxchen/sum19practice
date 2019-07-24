@@ -8,6 +8,8 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 <br/>
 [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/ "ZigZag Conversion")
 <br/>
+[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/ "String to Integer (atoi)")
+<br/>
 
 ## To Do (totally tentative)
 [1. Two Sum](https://leetcode.com/problems/two-sum/ "Two Sum")<br/>
@@ -20,10 +22,14 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 
 #### Candace's doing
+[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)<br/>
+
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
 
 #### Candace's done
+
+__Arrays__ <br />
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br/>
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)<br/>
 [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)<br/>
@@ -31,3 +37,14 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)<br/>
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<br/>
 [15. 3Sum](https://leetcode.com/problems/3sum/)<br/>
+
+__Binary__ <br />
+__Dynamic Programming__ <br />
+__Graph__ <br />
+__Interval__ <br />
+__Linked List__ <br />
+__Matrix__ <br />
+__String__ <br />
+__Tree__ <br />
+__Heap__ <br />
+[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<br/>

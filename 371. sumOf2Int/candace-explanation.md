@@ -15,6 +15,12 @@ Output: 1
 
 ## Initial Insights
 1. what 
+2. after like an hour, suddent revelation: 1/2 = 0.5, so 1 + 2 = 1 + 1/2 where "1/1" is 2. which is 3. works for 2 + 3 also.
+3. but then, that uses addition, so how? bit manip! in java, the syntax is: 
+  1. | == or 
+  2. ~ == not
+  3. ^ == xor 
+  4. & == and 
 
 ## Solution:
 1. 
