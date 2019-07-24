@@ -2,7 +2,7 @@
 https://leetcode.com/problems/climbing-stairs/
 
 ## Problem: 
-You are climbing a stair case. It takes n steps to reach to the top.
+You are climbing a staircase. It takes n steps to reach to the top.
 
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
@@ -15,6 +15,8 @@ Output: 2
 Explanation: There are two ways to climb to the top.
 1. 1 step + 1 step
 2. 2 steps
+
+
 Example 2:
 
 Input: 3
@@ -25,16 +27,19 @@ Explanation: There are three ways to climb to the top.
 3. 2 steps + 1 step
 
 ## Initial Insights
-1. I did smth like this for practice earlier this yr, and i used separately instantiated variables to keep track of one element per list, and iterate through all of them slowly. not possible here (?), thought about nested for loops: for all lists, go through all elements the same way, but that can't work (still need ousitde variables)
-2. peeked in on the category: heaps, so a solution could be to just insert all elements in a min heap and create a new list like that.
+1. identical to the currency exchange problem. at each step, store answer for using all options. initial attempt was a recursive one that would double count certain combinations, so storing attempted tries is absolutely necessary.
+2. reviewed discussions, caught on to the whole branching thing but it wasnt applied in the way that i thought it would: tho the tree goes down, the branching is applied in that each value can be reached in 2 ways: +1 or +2 from 2 immediate previous numbers. so you set up vars for 0, 1, and 2, and create the possible ways for each step from there.
+
 
 ## Solution:
-1. 
+1. set up int for total, one_before, two_before.
+2. starting at 2, move to n, and at each point: total is one_before + two_before, reset both values
 
-Time: 
+Time: O(N)
 
-Space: 
+Space: O(1)
 
 
 ## Learned:
-1. 
+1. edge cases: 0, 1, 2, handle em before you reach the meat of ur implementation
+2. identify the recurrence! kind of did that with branching
