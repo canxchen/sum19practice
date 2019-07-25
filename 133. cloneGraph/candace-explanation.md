@@ -26,7 +26,7 @@ You must return the copy of the given node as a reference to the cloned graph.
 
 ## Initial Insights
 1. graphs?? dfs and bfs!!
-2. got caught up in the refeences: wasnt making notes when i was thinking, thinking about how the references in the list would be accurate for some reason confused me: just add htem to the arraylist via recursive call, which returns the node created.
+2. got caught up in the refeences: wasnt making notes when i was thinking, thinking about how the references in the list would be accurate for some reason confused me: just add htem to the arraylist via recursive call, which returns the node created (and adds it to the __newly created__ arraylist).
 
 
 ## Solution:

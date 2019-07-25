@@ -22,7 +22,7 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 
 #### Candace's doing
-[133. Clone Graph](https://leetcode.com/problems/clone-graph/)<br/>
+[322. Coin Change](https://leetcode.com/problems/coin-change/)<br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
 
@@ -38,13 +38,23 @@ __Arrays__ <br />
 [15. 3Sum](https://leetcode.com/problems/3sum/)<br/>
 
 __Binary__ <br />
+
 __Dynamic Programming__ <br />
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/ "come up w reccurence relation")<br/>
+
 __Graph__ <br />
+[133. Clone Graph](https://leetcode.com/problems/clone-graph/)<br/>
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/)<br/>
 __Interval__ <br />
+
 __Linked List__ <br />
+
 __Matrix__ <br />
+
 __String__ <br />
+
 __Tree__ <br />
+[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)<br/>
+
 __Heap__ <br />
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<br/>
