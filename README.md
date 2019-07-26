@@ -3,6 +3,9 @@
 A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU "YEET") of leetcode problems to to.
 
 
+[simple algorithms overview](https://algs4.cs.princeton.edu/home/ "yeee") courtesy of princeton overlords <br/>
+
+
 ## Currently Doing
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/ "Longest Palindromic Substring")
 <br/>
@@ -21,12 +24,12 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 <br/>
 
 
-#### Candace's doing
+# Candace's doing
 [322. Coin Change](https://leetcode.com/problems/coin-change/)<br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
 
-#### Candace's done
+## Candace's done
 
 __Arrays__ <br />
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br/>
