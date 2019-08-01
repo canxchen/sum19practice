@@ -56,3 +56,10 @@ Space: O(N)
 2. check terminating sequences: i was not setting the array to -1 where i should have been: initialize it to all -1's? or just when the loop hits it, put it as -1 
 3. for if statements: think about what the conditions would be if it were true or false, and think about what should be done in those cases!!!
 4. think bro
+
+
+-solution an be expressed as FUNCTION of solutions to smaller problems? (build answer from smaller answers?)
+-stopping @ curr? = can stop at next point?
+-what changes with each "iteration" (# changing parameters, # subproblems)
+-assuming subproblems are completed, how to related to "current"/main problem
+-
