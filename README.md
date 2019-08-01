@@ -26,6 +26,7 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 # Candace's doing
 [57. Insert Interval](https://leetcode.com/problems/insert-interval/)<br/>
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)<br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
 
@@ -59,6 +60,7 @@ __Interval__ <br />
 
 __Linked List__ <br />
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<br/>
+[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)<br/>
 __Matrix__ <br />
 
 __String__ <br />
@@ -68,3 +70,8 @@ __Tree__ <br />
 
 __Heap__ <br />
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<br/>
+
+
+
+https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/
+https://github.com/andreimaximov/unet
