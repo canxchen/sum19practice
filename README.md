@@ -24,16 +24,14 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 <br/>
 
 
+
+---
+
 # Candace's doing
-[57. Insert Interval](https://leetcode.com/problems/insert-interval/)<br/>
-[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)<br/>
+
+[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
-
-
----
----
----
 
 
 ## Candace's done
@@ -57,14 +55,15 @@ __Graph__ <br />
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)<br/>
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/)<br/>
 __Interval__ <br />
-
+[57. Insert Interval](https://leetcode.com/problems/insert-interval/)<br/>
 __Linked List__ <br />
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<br/>
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)<br/>
 __Matrix__ <br />
 
 __String__ <br />
-
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)<br/>
+[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)<br/>
 __Tree__ <br />
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)<br/>
 
@@ -73,5 +72,7 @@ __Heap__ <br />
 
 
 
-https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/
-https://github.com/andreimaximov/unet
+https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/ <br/>
+https://github.com/andreimaximov/unet <br/>
+https://www.cs.umd.edu/users/meesh/cmsc351/mount/lectures/ <br/>
+http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
