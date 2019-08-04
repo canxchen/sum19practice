@@ -18,6 +18,7 @@ public class sameTree {
                 to_see.add(curr.right);
         }
         return 0 == to_seeq.size();
+        //return p.val==q.val&&isSameTree(p.right,q.right)&&isSameTree(p.left,q.left); //that shit dont workkk
     }
 }
 class TreeNode {
