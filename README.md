@@ -29,9 +29,8 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 # Candace's doing
 
-[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<br/>
+[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)<br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
-[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
 
 
 ## Candace's done
@@ -44,6 +43,7 @@ __Arrays__ <br />
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)<br/>
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<br/>
 [15. 3Sum](https://leetcode.com/problems/3sum/)<br/>
+[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br/>
 
 __Binary__ <br />
 
@@ -60,13 +60,15 @@ __Linked List__ <br />
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<br/>
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)<br/>
 __Matrix__ <br />
-
+[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)<br/>
+[417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)<br/>
 __String__ <br />
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)<br/>
 [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)<br/>
+[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<br/>
 __Tree__ <br />
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)<br/>
-
+[100. Same Tree](https://leetcode.com/problems/same-tree/)<br/>
 __Heap__ <br />
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<br/>
 
