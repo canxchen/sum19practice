@@ -24,15 +24,16 @@ Output:
 
 
 ## Initial Insights
-1. 
+1. some sort of queue: store each level, and pop twice?
+2. just go with what ya know u dingus (inorder traversal thats recursive)
 
 ## Solution:
-1. 
+1. resursion! give to_copy and new_copy, both of which are instantiated. new_copy.value = to_copy.value; new_copy.left = rec(to_copy.right, new TreeNode(-1)); new_copy.right = rec(to_copy.left, new TreeNode(-1)); return new_copy
 
-Time: 
+Time: O(N) num nodes
 
-Space: 
+Space: O(N) num nodes
 
 
 ## Learned:
-1. 
+1. go with what you know
