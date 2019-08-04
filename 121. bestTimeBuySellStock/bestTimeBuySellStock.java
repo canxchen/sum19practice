@@ -1,6 +1,14 @@
 public class bestTimeBuySellStock {
     public int maxProfit(int[] prices) {
-        int answer = 0; int maxProf = 0;
+        //THIS ONE WORKS: fidn the contiguous min and max value
+        int min = Integer.MAX_VALUE, max = 0;
+        for (int price: prices) {
+            min = Math.min(min, price); //which is smaller, current min or current price
+            max = Math.max(price - min, max); //which is bigger, current value - current min or prexisting max
+        }
+        return max;
+        
+        /*int answer = 0; int maxProf = 0;
         if (prices == null || prices.length == 0)
             return answer;
         if (prices.length == 1)
@@ -14,7 +22,7 @@ public class bestTimeBuySellStock {
                 }
             }
         }
-        return answer;
+        return answer;*/
     }
 
     public int maxProfitDP(int[] prices) {
