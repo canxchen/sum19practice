@@ -28,8 +28,8 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 ---
 
 # Candace's doing
-
-[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)<br/>
+[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)<br/>
+[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) *************** <br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 
 
@@ -67,10 +67,13 @@ __String__ <br />
 [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)<br/>
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<br/>
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)<br/>
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)<br/>
 __Tree__ <br />
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)<br/>
 [100. Same Tree](https://leetcode.com/problems/same-tree/)<br/>
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)<br/>
+[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)<br/>
+[297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) *********<br/>
 __Heap__ <br />
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<br/>
 
@@ -80,3 +83,4 @@ https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/ <br/>
 https://github.com/andreimaximov/unet <br/>
 https://www.cs.umd.edu/users/meesh/cmsc351/mount/lectures/ <br/>
 http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html
+https://www.youtube.com/watch?v=3upqzRL0IEc

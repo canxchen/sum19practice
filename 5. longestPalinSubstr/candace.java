@@ -38,8 +38,32 @@ public class Main {
             System.out.println("testing longest palindrome on 'abcdnnabcd' failed");
         }
     }
+    int start=-1;
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() == 0)
+            return "";
+        if (s.length() == 1)
+            return s;
+        String answer = s.substring(0,1); int currl, currr;
+        for (int i = 0; i <s.length();i++) {
+            extendPalindrome(s,i,i);//aba
+            extendPalindrome(s,i,i+1);//abba
+        }
+        return start==-1?"": s.substring(start,start+max);
+    }
+    
+    public void extendPalindrome(String s, int i, int j) {
+        if (i<0||j>s.length()-1)return;
+        int curr = 0;//1-1=0, 2-1=1
+        while (i>=0&&j<s.length()&&s.charAt(i)==s.charAt(j)){
+                i--;j++;
+        }
+        if (max<j-i-1) {
+             max=j-i-1;start=i+1;
+        }
+    }
 
-    public static String longestPalindrome(String s) {
+    /*public static String longestPalindrome(String s) {
         if (s == null || s.length() == 0)
             return "";
         if (s.length() == 1)
@@ -70,5 +94,5 @@ public class Main {
             }
         }
         return answer;
-    }
+    }*/
 }
