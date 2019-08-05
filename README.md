@@ -28,7 +28,7 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 ---
 
 # Candace's doing
-[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)<br/>
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)<br/>
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) *************** <br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 
@@ -54,6 +54,7 @@ __Dynamic Programming__ <br />
 __Graph__ <br />
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)<br/>
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/)<br/>
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br/>
 __Interval__ <br />
 [57. Insert Interval](https://leetcode.com/problems/insert-interval/)<br/>
 __Linked List__ <br />
@@ -62,18 +63,21 @@ __Linked List__ <br />
 __Matrix__ <br />
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)<br/>
 [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)<br/>
+[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)<br/>
 __String__ <br />
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)<br/>
 [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)<br/>
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)<br/>
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)<br/>
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)<br/>
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)<br/>
 __Tree__ <br />
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)<br/>
 [100. Same Tree](https://leetcode.com/problems/same-tree/)<br/>
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)<br/>
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)<br/>
 [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) *********<br/>
+[572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)<br/>
 __Heap__ <br />
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<br/>
 
