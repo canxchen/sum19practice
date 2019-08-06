@@ -28,7 +28,7 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 ---
 
 # Candace's doing
-[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)<br/>
+[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)<br/>
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) *************** <br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 
@@ -50,7 +50,7 @@ __Binary__ <br />
 __Dynamic Programming__ <br />
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/ "come up w reccurence relation")<br/>
 [322. Coin Change](https://leetcode.com/problems/coin-change/)<br/>
-
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) *********************************************<br/>
 __Graph__ <br />
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)<br/>
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/)<br/>
