@@ -27,8 +27,14 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 
 ---
 
+
+# Work On:
+1. topological sort
+2. dynammic progrmaming formula
+3. min/max substring template: map, char -> int
+
 # Candace's doing
-[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)<br/>
+[xx done 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)<br/>
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) *************** <br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 
@@ -51,10 +57,13 @@ __Dynamic Programming__ <br />
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/ "come up w reccurence relation")<br/>
 [322. Coin Change](https://leetcode.com/problems/coin-change/)<br/>
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) *********************************************<br/>
+[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)<br/>
+[139. Word Break](https://leetcode.com/problems/word-break/) **************************** <br/>
 __Graph__ <br />
 [133. Clone Graph](https://leetcode.com/problems/clone-graph/)<br/>
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/)<br/>
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br/>
+[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) ************** union finding <br/>
 __Interval__ <br />
 [57. Insert Interval](https://leetcode.com/problems/insert-interval/)<br/>
 __Linked List__ <br />
@@ -80,7 +89,7 @@ __Tree__ <br />
 [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)<br/>
 __Heap__ <br />
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)<br/>
-
+[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)<br/>
 
 
 https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/ <br/>

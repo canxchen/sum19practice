@@ -45,18 +45,21 @@ Explanation: There is no such common subsequence, so the result is 0.
 
 
 ## Initial Insights
-1. 
+1. ive done this before! dp: two dimensional, each [i][j] holds the longest common subsequence reachable by the numbers i and j that youve traverse thru string 1 and stirng 2, respectively. 
+    1. come from diagonal: consume curr chars of both. 
+    2. come from left: consume a char in the left-right string. 
+    3. come from top: consume a character from the top-down string
 
 ## Solution:
-1. 
+1. outlined above! make sure that the forloops are within the correct indices
 
-Time: 
+Time: O(NM)
 
-Space: 
+Space: O(NM)
 
 
 ## Learned:
-1. 
+1. for loop edges?
 
 public int longestCommonSubsequence(String text1, String text2) {
         if (text1==null||text2==null||text1.length()==0||text2.length()==0)return 0;

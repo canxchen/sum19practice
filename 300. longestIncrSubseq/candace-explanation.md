@@ -43,3 +43,15 @@ Space: O(N)
 
 ## Learned:
 1. BINARY SEARCH DOESNT HAVE TO BE DONE ON THE VALUES THEM SELVES. what do you need. what are the facts: the longest subsqueence will always take a value bigger than curr, but is the SMALLEST of those value. 
+1. so the # of possible lengths that these subsequences can have is nums.length
+2. in each subsequence, the last number > all members of that subsequence
+    1. but it is the smallest possible # that is > all members of that subsequence
+    2. ie: 1.5.3.4   1.3.4 better than 1.5   5>1 but 3<5 and 3>1, so choose 3
+3. so if you guarantee that the rest of the numbers in the list < the last
+you only have to check the last number
+4. you can maintain a list of these last numbers, and do binary search on that
+5. if, for each member of nums, you do binary search
+6. you gurante that it is a subsequence: numbers are entered into the tree are entered in the order that they appear in [nums]
+7. for each loop: the number could be inserted in: the front(replace first number), the back (a new subsequence with 1 element more), in the middle somewhere () 
+
+1. THE RIGHT BOUNDARY IS ALWAYS THE SIZE, 1 + LAST INDEX
