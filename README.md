@@ -34,7 +34,7 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 3. min/max substring template: map, char -> int
 
 # Candace's doing
-[xx done 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)<br/>
+[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)<br/>
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) *************** <br/>
 [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)<br/>
 
@@ -69,6 +69,7 @@ __Interval__ <br />
 __Linked List__ <br />
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<br/>
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)<br/>
+[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)<br/>
 __Matrix__ <br />
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)<br/>
 [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)<br/>
