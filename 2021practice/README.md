@@ -5,11 +5,14 @@ A [recommended list](https://www.teamblind.com/article/New-Year-Gift---Curated-L
 [simple algorithms overview](https://algs4.cs.princeton.edu/home/ "yeee") courtesy of princeton overlords <br/>
 
 ## Currently Doing
+[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
 ## To Do (totally tentative)
 
 ## Done
-
+[Max Depth Of Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+[Valid Parantheses- no writeup](https://leetcode.com/problems/valid-parentheses/)
 
 ---
 
