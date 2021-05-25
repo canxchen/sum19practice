@@ -38,33 +38,57 @@ Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 5. what is the simple improvement that makes it O(M+N)???
 6. so my attempted O(1) is (with help from google): use the first column and row as flags. if you run into a 0, make the top cell and left most cell 0, to signify that everything below, and to the right, respectively, needs to be 0.
 7. ran into an error: when the upper 2 corners are 0, i use the first corner to set the entire row 0, and then i do the columns, at which point the columns are all 0 and so i set the entire matrix to 0's
+8. Final thought that I needed a hint to come up with: extra variables that take up the same space no matter the input (aka space that is unrelated to the input size, aka constant space) is alloweddddd for O(1) solutions 
 
 ## Solution:
+for a normal/acceptable solution, use a hashset for rows and another for columns. when u run into a 0, take not of the row and column by putting them in their respective hash sets and fo thru the matrix again to set the zeroes O(M+N)
 
-CINOMPLETE AND NOT WORKING
+O(1) solution: use first row and column as flags (for each row, if 1st ele is 0, make whole row 0). go thru matrix twice: once for setting the flags, and another for setting 0s. for the edge case ([0][0] cell is 0, which would zero out the whole matrix)- just use it as a flag for one dimension, and an extra variable for the other dimension (ie use it as a row indicator, and check it before setting it for the column indicator)
+
 class Solution {
     public void setZeroes(int[][] matrix) {
-        for (int row = 0; row < matrix.length; row++) {
-            for (int col = 0; col < matrix[0].length; col++) {
-                if (matrix[row][col] == 0) {
-                    //if (col != matrix[0].length - 1) 
-                    matrix[0][col] = 0;
-                    matrix[row][0] = 0;
+        int numRows = matrix.length;
+        int numCols = matrix[0].length;
+        int firstColVal = 1;
+        
+        //mark the first row and cols
+        for (int i = 0; i < numRows; i++) {
+            for (int j = 0; j < numCols; j++) {
+                if (matrix[i][j] == 0) {
+                    //mark col
+                    if (j != 0) {
+                        //if not first col, mark the first cell
+                        matrix[0][j] = 0;
+                    } else {
+                        //if first col (literal edge case) -mark the variable 
+                        firstColVal = 0;
+                    }
+                    //mark row no matter what it is
+                    matrix[i][0] = 0;
                 }
             }
         }
-        for (int row = 1; row  < matrix.length; row++) {
-            if (matrix[row][0] == 0) {
-                for (int col = 1; col < matrix[0].length; col++) {
-                    matrix[row][col] = 0;
+
+        //for everything from [1][1] forward, check first row/col
+        for (int i = 1; i < numRows; i++) {
+            for (int j = 1; j < numCols; j++) {
+                if (matrix[0][j] == 0 || matrix[i][0] == 0) {
+                    matrix[i][j] = 0;
                 }
             }
         }
-        for (int col = 1; col < matrix[0].length; col++) {
-            if (matrix[0][col] == 0) {
-                for (int row = 1; row < matrix.length; row++) {
-                    matrix[row][col] = 0;
-                }
+        
+        //check corners: first, we do the first row: col changes but row does not
+        if (matrix[0][0] == 0) {
+            for (int i = 0; i < numCols; i++) {
+                matrix[0][i] = 0;
+            }
+        }
+        
+        //then we do the first col: row changes but cols do not
+        if (firstColVal == 0) {
+            for (int i = 0; i < numRows; i++) {
+                matrix[i][0] = 0;
             }
         }
     }
